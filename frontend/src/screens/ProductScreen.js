@@ -22,6 +22,10 @@ const ProductScreen = ({ history, match }) => {
   const addToCartHandler = () => {
     history.push(`/cart/${match.params.id}?qty=${qty}`)
   }
+  // const addToCartHandler = () => {
+  //   dispatch(addToCart(product._id, qty))
+  //   props.history.push('/cart')
+  // }
 
   return (
     <>
